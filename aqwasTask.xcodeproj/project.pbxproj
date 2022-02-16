@@ -17,12 +17,15 @@
 		E0BF0DE827BD460000ACABA1 /* URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF0DDF27BD460000ACABA1 /* URLRequestConvertible.swift */; };
 		E0BF0DE927BD460000ACABA1 /* UITableViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF0DE027BD460000ACABA1 /* UITableViewCellExtensions.swift */; };
 		E0BF0DEA27BD460000ACABA1 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF0DE127BD460000ACABA1 /* NSObjectExtension.swift */; };
+		E0BF0DED27BD4AA100ACABA1 /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF0DEC27BD4AA100ACABA1 /* TestingAppDelegate.swift */; };
+		E0BF0DF927BD4ABA00ACABA1 /* ResturantsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF0DF127BD4ABA00ACABA1 /* ResturantsModel.swift */; };
+		E0BF0DFA27BD4ABA00ACABA1 /* ResturantsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF0DF227BD4ABA00ACABA1 /* ResturantsPresenter.swift */; };
+		E0BF0DFB27BD4ABA00ACABA1 /* ResturantsCellSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF0DF527BD4ABA00ACABA1 /* ResturantsCellSpy.swift */; };
+		E0BF0DFC27BD4ABA00ACABA1 /* ResturantsViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF0DF627BD4ABA00ACABA1 /* ResturantsViewSpy.swift */; };
+		E0BF0DFD27BD4ABA00ACABA1 /* ResturantsRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF0DF827BD4ABA00ACABA1 /* ResturantsRepositoryStub.swift */; };
 		E0FD5E7A27BA7F48001E5343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FD5E7927BA7F48001E5343 /* AppDelegate.swift */; };
 		E0FD5E8327BA7F49001E5343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0FD5E8227BA7F49001E5343 /* Assets.xcassets */; };
 		E0FD5E8627BA7F49001E5343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FD5E8427BA7F49001E5343 /* LaunchScreen.storyboard */; };
-		E0FD5E9127BA7F49001E5343 /* aqwasTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FD5E9027BA7F49001E5343 /* aqwasTaskTests.swift */; };
-		E0FD5E9B27BA7F49001E5343 /* aqwasTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FD5E9A27BA7F49001E5343 /* aqwasTaskUITests.swift */; };
-		E0FD5E9D27BA7F49001E5343 /* aqwasTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FD5E9C27BA7F49001E5343 /* aqwasTaskUITestsLaunchTests.swift */; };
 		E0FD5EAB27BA86F6001E5343 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E0FD5EAA27BA86F6001E5343 /* Alamofire */; };
 		E0FD5EAE27BA8866001E5343 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E0FD5EAD27BA8866001E5343 /* Kingfisher */; };
 		E0FD5EB427BA9270001E5343 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FD5EB327BA9270001E5343 /* Constants.swift */; };
@@ -68,15 +71,18 @@
 		E0BF0DDF27BD460000ACABA1 /* URLRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestConvertible.swift; sourceTree = "<group>"; };
 		E0BF0DE027BD460000ACABA1 /* UITableViewCellExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtensions.swift; sourceTree = "<group>"; };
 		E0BF0DE127BD460000ACABA1 /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		E0BF0DEC27BD4AA100ACABA1 /* TestingAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
+		E0BF0DF127BD4ABA00ACABA1 /* ResturantsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantsModel.swift; sourceTree = "<group>"; };
+		E0BF0DF227BD4ABA00ACABA1 /* ResturantsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantsPresenter.swift; sourceTree = "<group>"; };
+		E0BF0DF527BD4ABA00ACABA1 /* ResturantsCellSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantsCellSpy.swift; sourceTree = "<group>"; };
+		E0BF0DF627BD4ABA00ACABA1 /* ResturantsViewSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantsViewSpy.swift; sourceTree = "<group>"; };
+		E0BF0DF827BD4ABA00ACABA1 /* ResturantsRepositoryStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantsRepositoryStub.swift; sourceTree = "<group>"; };
 		E0FD5E7627BA7F48001E5343 /* aqwasTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aqwasTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FD5E7927BA7F48001E5343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0FD5E8227BA7F49001E5343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0FD5E8527BA7F49001E5343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0FD5E8C27BA7F49001E5343 /* aqwasTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aqwasTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0FD5E9027BA7F49001E5343 /* aqwasTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aqwasTaskTests.swift; sourceTree = "<group>"; };
 		E0FD5E9627BA7F49001E5343 /* aqwasTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aqwasTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0FD5E9A27BA7F49001E5343 /* aqwasTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aqwasTaskUITests.swift; sourceTree = "<group>"; };
-		E0FD5E9C27BA7F49001E5343 /* aqwasTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aqwasTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E0FD5EB327BA9270001E5343 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E0FD5EB527BA9352001E5343 /* ViewDisplayble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDisplayble.swift; sourceTree = "<group>"; };
 		E0FD5EB727BA9369001E5343 /* AlertBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
@@ -118,12 +124,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0BF0DEE27BD4ABA00ACABA1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF0DEF27BD4ABA00ACABA1 /* Resturants */,
+				E0BF0DF727BD4ABA00ACABA1 /* Stub */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E0BF0DEF27BD4ABA00ACABA1 /* Resturants */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF0DF027BD4ABA00ACABA1 /* Creator */,
+				E0BF0DF227BD4ABA00ACABA1 /* ResturantsPresenter.swift */,
+				E0BF0DF327BD4ABA00ACABA1 /* ViewSpy */,
+			);
+			path = Resturants;
+			sourceTree = "<group>";
+		};
+		E0BF0DF027BD4ABA00ACABA1 /* Creator */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF0DF127BD4ABA00ACABA1 /* ResturantsModel.swift */,
+			);
+			path = Creator;
+			sourceTree = "<group>";
+		};
+		E0BF0DF327BD4ABA00ACABA1 /* ViewSpy */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF0DF427BD4ABA00ACABA1 /* CellSpy */,
+				E0BF0DF627BD4ABA00ACABA1 /* ResturantsViewSpy.swift */,
+			);
+			path = ViewSpy;
+			sourceTree = "<group>";
+		};
+		E0BF0DF427BD4ABA00ACABA1 /* CellSpy */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF0DF527BD4ABA00ACABA1 /* ResturantsCellSpy.swift */,
+			);
+			path = CellSpy;
+			sourceTree = "<group>";
+		};
+		E0BF0DF727BD4ABA00ACABA1 /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF0DF827BD4ABA00ACABA1 /* ResturantsRepositoryStub.swift */,
+			);
+			path = Stub;
+			sourceTree = "<group>";
+		};
 		E0FD5E6D27BA7F47001E5343 = {
 			isa = PBXGroup;
 			children = (
 				E0FD5E7827BA7F48001E5343 /* aqwasTask */,
 				E0FD5E8F27BA7F49001E5343 /* aqwasTaskTests */,
-				E0FD5E9927BA7F49001E5343 /* aqwasTaskUITests */,
 				E0FD5E7727BA7F48001E5343 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -157,18 +214,10 @@
 		E0FD5E8F27BA7F49001E5343 /* aqwasTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				E0FD5E9027BA7F49001E5343 /* aqwasTaskTests.swift */,
+				E0BF0DEC27BD4AA100ACABA1 /* TestingAppDelegate.swift */,
+				E0BF0DEE27BD4ABA00ACABA1 /* Scenes */,
 			);
 			path = aqwasTaskTests;
-			sourceTree = "<group>";
-		};
-		E0FD5E9927BA7F49001E5343 /* aqwasTaskUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E0FD5E9A27BA7F49001E5343 /* aqwasTaskUITests.swift */,
-				E0FD5E9C27BA7F49001E5343 /* aqwasTaskUITestsLaunchTests.swift */,
-			);
-			path = aqwasTaskUITests;
 			sourceTree = "<group>";
 		};
 		E0FD5EAF27BA90B7001E5343 /* Core */ = {
@@ -358,6 +407,7 @@
 					};
 					E0FD5E8B27BA7F49001E5343 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = E0FD5E7527BA7F47001E5343;
 					};
 					E0FD5E9527BA7F49001E5343 = {
@@ -452,7 +502,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0FD5E9127BA7F49001E5343 /* aqwasTaskTests.swift in Sources */,
+				E0BF0DFD27BD4ABA00ACABA1 /* ResturantsRepositoryStub.swift in Sources */,
+				E0BF0DF927BD4ABA00ACABA1 /* ResturantsModel.swift in Sources */,
+				E0BF0DFB27BD4ABA00ACABA1 /* ResturantsCellSpy.swift in Sources */,
+				E0BF0DFC27BD4ABA00ACABA1 /* ResturantsViewSpy.swift in Sources */,
+				E0BF0DED27BD4AA100ACABA1 /* TestingAppDelegate.swift in Sources */,
+				E0BF0DFA27BD4ABA00ACABA1 /* ResturantsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,8 +515,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0FD5E9B27BA7F49001E5343 /* aqwasTaskUITests.swift in Sources */,
-				E0FD5E9D27BA7F49001E5343 /* aqwasTaskUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,15 +728,23 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8NZN23VC38;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = absha.aqwasTaskTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "aqwasTaskTests/aqwasTaskTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aqwasTask.app/aqwasTask";
@@ -695,15 +756,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8NZN23VC38;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = absha.aqwasTaskTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "aqwasTaskTests/aqwasTaskTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aqwasTask.app/aqwasTask";
